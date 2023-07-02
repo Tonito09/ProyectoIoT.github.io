@@ -2,12 +2,35 @@
 <html>
 <head>
   <title>Recepción de datos MQTT</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="T:\xdxd\paho-mqtt.js"></script>
+  <script src="app.js"></script>
 </head>
 <body>
-  <h1>Datos MQTT</h1>
-  <ul id="data-list"></ul>
+  <header>
+    <h1>Datos MQTT</h1>
+  </header>
+  
+  <main>
+    <p>Bienvenido a la página de recepción de datos MQTT.</p>
+    
+    <p>Aquí puedes visualizar los datos recibidos a través de MQTT en tiempo real:</p>
+    <ul id="mqtt-data-list">
+      <!-- Los datos MQTT se agregarán dinámicamente aquí -->
+    </ul>
+    
+    <p>Aquí puedes ver los datos estáticos:</p>
+    <ul id="static-data-list">
+      <li>Dato estático 1</li>
+      <li>Dato estático 2</li>
+    </ul>
+    
+    <p>Recuerda que estos datos son ficticios y se muestran con fines de ejemplo.</p>
+  </main>
+  
+  <footer>
+    <p>¡Gracias por visitar nuestra página de recepción de datos MQTT!</p>
+  </footer>
 
-  <script src="mqtt.js"></script>
-  <script src="app.js"></script>
 </body>
 </html>
