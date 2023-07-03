@@ -1,5 +1,5 @@
 // Establecer la conexión MQTT utilizando WebSocket seguro
-var client = new Paho.MQTT.Client("broker.emqx.io", 8084, "clientId");
+var client = new Paho.MQTT.Client("broker.emqx.io", 8083, "clientId");
 
 // Establecer los callbacks de conexión
 client.onConnectionLost = onConnectionLost;
