@@ -1,5 +1,5 @@
 // Establecer la conexión MQTT utilizando el protocolo TCP
-var client = new Paho.MQTT.Client("test.mosquitto.org", 8080, "clientId");
+var client = new Paho.MQTT.Client("test.mosquitto.org", 443, "clientId");
 
 // Establecer los callbacks de conexión
 client.onConnectionLost = onConnectionLost;
